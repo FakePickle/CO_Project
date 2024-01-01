@@ -11,6 +11,7 @@ This Python script serves as an interpreter for a custom assembly-like language.
 - [Output and Line Formatting](#output-and-line-formatting)
 - [Floating Point Operations](#floating-point-operations)
 - [Utility Functions](#utility-functions)
+- [ISA Infrastructure](#isa-infrastructure)
 - [Execution Loop](#execution-loop)
 - [Opcode Definitions](#opcode-definitions)
 - [Execution Flow](#execution-flow)
@@ -56,6 +57,10 @@ This Python script serves as an interpreter for a custom assembly-like language.
 - **Binary to Decimal Conversion (bin_to_dec):** Converts a binary string to a decimal integer.
 - **Decimal to Binary Conversion (dec_to_bin):** Converts a decimal integer to a binary string.
 - **Floating Point Operations:** Functions for floating-point arithmetic operations and register manipulations.
+
+## ISA-Infrastructure
+
+- This file [INSTRUCTIONS.md](INSTRUCTIONS.md) provides detailed instructions for viewing and understanding the infrastructure of the custom assembly-like language interpreter. It covers the overview, ISA Infrastructure used, Syntax of the assembly code and information about FLAGS and Registers used.
 
 ## Execution Loop
 
